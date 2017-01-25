@@ -2,7 +2,6 @@ var inputText : HTMLInputElement;
 var submitButton : HTMLInputElement;
 
 function checkForContent(){
-    console.log(inputText.value);
     if (inputText.value != ''){
         submitButton.removeAttribute('disabled');
     }else{
